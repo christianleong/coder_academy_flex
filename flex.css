@@ -3,8 +3,8 @@
   flex-wrap: nowrap;
   border: 1px solid red;
   height: 90vh;
-  justify-content: space-around;
-  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-child {
@@ -12,12 +12,7 @@
   height: 80px;
   width: 80px;
   margin: 10px;
-}
-
-.item-1 {
-  order: 1;
-}
-
-.item-3 {
-  order: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
