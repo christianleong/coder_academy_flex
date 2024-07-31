@@ -1,0 +1,23 @@
+.flex-parent {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid red;
+  height: 90vh;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.flex-child {
+  background-color: red;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.item-1 {
+  order: 1;
+}
+
+.item-3 {
+  order: -1;
+}
